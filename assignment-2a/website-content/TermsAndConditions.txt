@@ -1,0 +1,32 @@
+<h1>Terms and conditions</h1>
+By accessing our website you agree to be bound by these terms and conditions. If this is not the case, you are advised 
+to immediately stop the use of our website. We reserve the right to change these terms at any time without further notice.
+Modifications will take effect immediately.
+
+<h2>Privacy Policy</h2>
+We respect your privacy and don't store any unnecessary data. Our web server will log your
+- IP Address and
+- time of accessing the page.
+This is done to prevent bad actors from abusing our systems and log files are cleaned up regularly.
+No other data (e.g., which specific site you accessed or other identifiable information) is logged.
+
+<h2>Donations</h2>
+We don't handle the donation function ourselves, instead we chose a trustworthy business partner to do
+this for us. If you want to read the terms and conditons as well as the privacy policy regarding
+donations, we'll refer you to our partner. You can reach these after clicking the donate button. Don't
+worry, you will just be redirected and won't automatically donate anything.
+
+<h2>Contact</h2>
+This website doesn't offer a form or chat to contact us directly. Instead you are advised to use the contact
+methods listed on the <a>contact page.</a> Depending on your selection, we'll automatically receive some data
+(e.g., your email address or phone number). These are used exclusively to answer your inquiry unless said otherwise
+in your specific case.
+
+<h2>Third-party sites</h2>
+This website may links to some third-party sites. These are operated by other entities and we take no responsiblity
+for content of their sites. Their terms and conditions apply if you visit their website.
+
+<h2>Company</h2>
+TODO: Change placeholder
+COMPANY NAME is responsible for the content of this website. If you have any concerns regarding this site or hold the
+copyright to some work published by us, please contact us via a listed method on the <a>contact page.</a>
