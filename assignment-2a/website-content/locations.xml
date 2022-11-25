@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <locations>
     <location>
         <city>Berlin</city>
@@ -22,9 +23,9 @@
     </location>
     <location>
         <city>Hamburg</city>
-        <address>Albrechtstrasse 41, 20253 Hamburg</address>
+        <address>Albrechtstraße 41, 20253 Hamburg</address>
         <phone>0410501234567</phone>
         <email>hamburg@domain</email>
-        <openingTimes>09:00-16:00</openingTimes>
+        <openingTimes>10:00-15:00</openingTimes>
     </location>
 </locations>

@@ -1,0 +1,44 @@
+For banner (contact info of our headquarters):
+    Address:
+        Waldowstr. 1
+        10243 Berlin
+        09:00 - 18:00
+    Phone:
+        030 01234567
+        09:00 - 18:00
+    Email:
+        info@domain
+    
+Main content:
+If you have any questions, suggestions or other inquiries, please feel free to contact us.
+We'd appreciate it if you visited us in person as this is best way to quickly get in touch.
+However, as we don't have that many physical locations, we'd also welcome a phone call
+or email. Above you can see these listed for our headquarters but we also have a few
+other locations for you to visit and/or call or even email us. If your inquiry isn't directly
+related to a single location, you're always free to contact our headquarters. Below you can
+find our other offices.
+
+- Dresden
+    Michaelkirschstr. 80, 01277 Dresden
+    0351 01234567
+    09:00 - 16:00
+    dresden@domain
+- München
+    Köpenicker Str. 66, 80634 München
+    089 01234567
+    09:00 - 16:00
+    muenchen@domain
+- Hamburg
+    Albrechtstraße 41, 20253 Hamburg
+    04105 01234567
+    10:00 - 15:00
+    hamburg@domain
+
+
+Should we add another way of contacting us? If you're missing an option, please let us know.
+If there is enough demand for it, we'll consider adding some options.
+Do you prefer information without too much presentational markup? Do you want to automate
+something regarding our locations? Maybe automatically detect a change of our opening times?
+We have the right thing for you: <a>An XML file</a> listing our offices including the physical
+address, phone number, email address and opening times. Should we add anything to this file?
+Please let us know. We'll update this file as soon as something changes so it's always up-to-date.
