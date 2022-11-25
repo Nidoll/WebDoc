@@ -1,0 +1,7 @@
+For our merchandise images an attribution is required.
+This is done by a text "Image by rawpixel.com" containing a hyperlink to the
+specific photo. The images have the following sources which need to be included:
+    - merch-green-cutout.jpg: https://www.rawpixel.com/image/4044618/t-shirt-mockup-psd-woman-model
+    - merch-green.jpg: https://www.rawpixel.com/image/4006931/photo-psd-tshirt-mockup
+    - merch-white-small: https://www.rawpixel.com/image/3066711/premium-photo-psd-t-shirt-mockup-clothing
+    - merch-white-big: https://www.rawpixel.com/image/3066711/premium-photo-psd-t-shirt-mockup-clothing
