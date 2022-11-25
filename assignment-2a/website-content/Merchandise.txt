@@ -1,3 +1,14 @@
+There will be four items listed which will each need a title, a price and an image:
+    - merch-white-small.jpg: "Shirt white, small logo"; 24,99€
+    - merch-white-big.jpg: "Shirt white, large logo"; 24,99€
+    - merch-green.jpg: "Shirt green, large logo"; 24,99€
+    - merch-green-cutout.jpg: "Shirt green, cutout logo"; 24,99€
+
+Also notice the image licenses listed in license.txt.
+
+
+Main content:
+
 Do you want to support us and receive something nice in return? Then our
 merchandise shop is right for you. Here you can order various items designed
 by us to help you spread the word.
