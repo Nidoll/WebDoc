@@ -2,7 +2,7 @@
 
 ## Groupmembers
 - Robert Meyer: jrobmey
-- Fiete Nörenberg: Fiete Nörenberg
+- Fiete Nörenberg: noerenil
 - Tristan Nuck: Nidoll
 
 ## Business description
@@ -23,12 +23,12 @@
 - Phone (Headquarter): 03001234567
 
 ### Mission and Services
-We are The Forest Sweepers, a family-owned business with a simple goal. Making our forests clean again. Our network is deeply branched into many locations in Germany. That’s why we can operate many cleaning projects simultaneously. The different offices are managed through our headquarter in Berlin. Our large number of committed team members is ready for all kinds of projects. We also encourage everyone to help with cleaning and protecting our valuable forests.
+We are The Forest Sweepers, a family-owned business with a simple goal. Making our forests clean again. The truth is, that our green save haven is polluted with all kinds of waste. Apart from the fact that it doesn't look nice, it can also be dangerous. For example, glass in combination with sun rays can potentially lead to a fire destroying everything around. Because healthy forests are necessary to combat climate change, we founded our company. Our network is deeply branched into many locations in Germany. That’s why we can operate many cleaning projects simultaneously. The different offices are managed through our headquarter in Berlin. Our large number of committed team members is ready for all kinds of projects.
 
 Based on the client’s needs, we offer a wide range of tidy-up services. With the help of our new website, we want to promote our business, encourage people to help by taking action, donating or shopping in our merchandise shop. We also want to reach potential new workers for our projects.
 
 ### User personas:
-[Link to user personas](assignment-2a/Personas.pdf)
+- [Link to user personas](assignment-2a/Personas.pdf)
 
 ## Website requirements
 - [List of all webpages](assignment-2a/website-content/webpages-list.html)

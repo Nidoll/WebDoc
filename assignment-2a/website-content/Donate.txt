@@ -1,0 +1,10 @@
+Here we want to have a donation field where the user can set an amount, 
+check if he wants to donate automatically (monthly/yearly) and what 
+payment method he would like to use.
+
+
+Main content:
+
+Please consider donating. With your financial support we can continue to clean our forests.
+
+TODO..
