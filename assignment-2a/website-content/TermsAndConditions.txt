@@ -1,3 +1,6 @@
+(h1 and h2 are just for showing you the importance of the different headlines,
+they don't actually have to be that)
+
 <h1>Terms and conditions</h1>
 By accessing our website you agree to be bound by these terms and conditions. If this is not the case, you are advised 
 to immediately stop the use of our website. We reserve the right to change these terms at any time without further notice.
@@ -27,6 +30,5 @@ This website may links to some third-party sites. These are operated by other en
 for content of their sites. Their terms and conditions apply if you visit their website.
 
 <h2>Company</h2>
-TODO: Change placeholder
-COMPANY NAME is responsible for the content of this website. If you have any concerns regarding this site or hold the
+The Forest Sweepers is responsible for the content of this website. If you have any concerns regarding this site or hold the
 copyright to some work published by us, please contact us via a listed method on the <a>contact page.</a>

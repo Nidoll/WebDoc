@@ -7,7 +7,7 @@ For banner (contact info of our headquarters):
         030 01234567
         09:00 - 18:00
     Email:
-        info@domain
+        info@theforestsweepers.com
     
 Main content:
 If you have any questions, suggestions or other inquiries, please feel free to contact us.
@@ -22,17 +22,17 @@ find our other offices.
     Michaelkirschstr. 80, 01277 Dresden
     0351 01234567
     09:00 - 16:00
-    dresden@domain
+    dresden@theforestsweepers.com
 - München
     Köpenicker Str. 66, 80634 München
     089 01234567
     09:00 - 16:00
-    muenchen@domain
+    muenchen@theforestsweepers.com
 - Hamburg
     Albrechtstraße 41, 20253 Hamburg
     04105 01234567
     10:00 - 15:00
-    hamburg@domain
+    hamburg@theforestsweepers.com
 
 
 Should we add another way of contacting us? If you're missing an option, please let us know.

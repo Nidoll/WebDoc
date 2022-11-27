@@ -4,28 +4,28 @@
         <city>Berlin</city>
         <address>Waldowstr. 1, 10243 Berlin</address>
         <phone>03001234567</phone>
-        <email>info@domain</email>
+        <email>info@theforestsweepers.com</email>
         <openingTimes>09:00-18:00</openingTimes>
     </location>
     <location>
         <city>Dresden</city>
         <address>Michaelkirchstr. 80, 01277 Dresden</address>
         <phone>035101234567</phone>
-        <email>dresden@domain</email>
+        <email>dresden@theforestsweepers.com</email>
         <openingTimes>09:00-16:00</openingTimes>
     </location>
     <location>
         <city>München</city>
         <address>Köpenicker Str. 66, 80634 München</address>
         <phone>08901234567</phone>
-        <email>muenchen@domain</email>
+        <email>muenchen@theforestsweepers.com</email>
         <openingTimes>09:00-16:00</openingTimes>
     </location>
     <location>
         <city>Hamburg</city>
         <address>Albrechtstraße 41, 20253 Hamburg</address>
         <phone>0410501234567</phone>
-        <email>hamburg@domain</email>
+        <email>hamburg@theforestsweepers.com</email>
         <openingTimes>10:00-15:00</openingTimes>
     </location>
 </locations>
