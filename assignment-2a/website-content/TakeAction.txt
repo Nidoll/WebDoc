@@ -1,3 +1,8 @@
+(Please note that h2 is only a reference for the importance of the headline and
+doesn't necessaryily need to be used)
+
+Column 1:
+<h2>Take action into your own hands</h2>
 Do you always ask yourself what I can do to help. We have the answer for you.  |
 Everyone can help even if its just a little bit. You can always go into the 
 forest in your area and help clean him up. But that’s not the only way you can 
@@ -5,9 +10,12 @@ help. You can always join our team and help with organization and funding. You
 can even help by just finding locations that desperately need a cleanup. We are 
 always busy so even just gathering information can help us a lot.
 
+
+Column 2:
+<h2>Help out with our projects</h2>
 But there are even more ways to take action. If you don’t have much time, you 
 can also support us with money. Every donation even the smallest one can help 
 us a lot. We all work voluntarily so we can take good use of the donations. But 
-we can also understand if you want something in return. Even buying our merges 
+we can also understand if you want something in return. Even buying our merch 
 helps us a lot. So, you see helping the environment is easy. There are many 
 different ways you can make an impact in the world; you just have to start. 
