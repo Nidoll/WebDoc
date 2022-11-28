@@ -32,8 +32,8 @@ Based on the client’s needs, we offer a wide range of tidy-up services. With t
 
 ## Website requirements
 - [List of all webpages](assignment-2a/website-content/webpages-list.html)
-- [TODO Link: Website design diagram](assignment-2a/website-content/)
-- [TODO Link: Wireframe page design](assignment-2a/website-content/)
+- [Website design diagram](assignment-2a/website-content/website-design-diagram.pdf)
+- [Wireframe page design](assignment-2a/website-content/wireframe-page-design.pdf)
 - [Visual style guide](assignment-2a/)
 
 ## Website content
@@ -42,7 +42,7 @@ Based on the client’s needs, we offer a wide range of tidy-up services. With t
 - [Locations as XML datasheet](assignment-2a/website-content/locations.xml)
 - [Logo as SVG](assignment-2a/website-content/LogoForestSweepers.svg)
 - [Images](assignment-2a/website-content/images/)
-- [TODO Link: Audio and Video files](assignment-2a/website-content/)
+- [Audio and Video files](assignment-2a/website-content/videos)
 
 
 ## Disclaimer
