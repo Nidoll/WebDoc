@@ -6,5 +6,5 @@ payment method he would like to use.
 Main content:
 
 Please consider donating. With your financial support we can continue to clean our forests.
-
-TODO..
+If you want to contribute regularly, you can do that by checking "Donate regularly" and then
+choosing between the given options. We offer all common payment methods.
