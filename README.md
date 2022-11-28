@@ -41,8 +41,9 @@ Based on the client’s needs, we offer a wide range of tidy-up services. With t
 - [Text for each page](assignment-2a/website-content/)
 - [Locations as XML datasheet](assignment-2a/website-content/locations.xml)
 - [Logo as SVG](assignment-2a/website-content/LogoForestSweepers.svg)
+- [Icons](assignment-2a/website-content/icons)
 - [Images](assignment-2a/website-content/images/)
-- [Audio and Video files](assignment-2a/website-content/videos)
+- [Video file](assignment-2a/website-content/videos)
 
 
 ## Disclaimer
