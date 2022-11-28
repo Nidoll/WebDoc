@@ -34,7 +34,7 @@ Based on the client’s needs, we offer a wide range of tidy-up services. With t
 - [List of all webpages](assignment-2a/website-content/webpages-list.html)
 - [Website design diagram](assignment-2a/website-content/website-design-diagram.pdf)
 - [Wireframe page design](assignment-2a/website-content/wireframe-page-design.pdf)
-- [Visual style guide](assignment-2a/)
+- [Visual style](assignment-2a/website-content/visual%20style.pdf)
 
 ## Website content
 - [Domain name](assignment-2a/DomainCheck.txt)
