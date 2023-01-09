@@ -1,0 +1,142 @@
+@import url("openSansFont.css");
+@import url("header.css");
+@import url("questions.css");
+
+/*-------------------------------------*/
+/*
+    Global
+*/
+/*-------------------------------------*/
+:root {
+    --color-bg-bright: #ffffff;
+    --color-gray: #848484;
+    --color-light-gray: rgb(238, 238, 238);
+    --color-accent: #426aec;
+    --color-accent-alt: #30cbe8;
+    --color-text: #000000;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+/*-------------------------------------*/
+
+
+/*-------------------------------------*/
+/*
+    Header and navbar
+*/
+/*-------------------------------------*/
+/* See imported file */
+
+/*-------------------------------------*/
+main {
+    margin: 0 10px 0 10px;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: large;
+    margin: 0px;
+    padding: 0px;
+}
+
+.headlineCenter {
+    margin-left: calc(50% - 100px);
+    padding: 0;
+    margin-top: 0;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
+.smallText {
+    font-size: small;
+}
+.redText {
+    color: red;
+}
+.marginRightAuto {
+    margin-right: auto;
+}
+
+.defaultButton {
+    background-color: var(--color-bg-bright);
+    color: var(--color-text);
+    font-size: large;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: var(--color-text);
+    border-style: solid;
+    padding: 3px;
+    box-shadow: none;
+}
+
+.defaultButton:hover {
+    background-color: var(--color-accent);
+    color: var(--color-bg-bright);
+    cursor: pointer;
+}
+
+.paddedButton {
+    padding: 0.1em 2em;
+}
+
+a,
+a:visited {
+    color: var(--color-accent);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*-------------------------------------*/
+/*
+    Footer
+*/
+/*-------------------------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 100%;
+    background: var(--color-accent-alt);
+    /*border-top: 2px solid black;*/
+}
+
+.footerLinks {
+    list-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerLinks li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.footerLinks li a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.footerLinks li a:hover {
+    text-decoration: none;
+    color: var(--color-accent);
+}
+
+.footerLogos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.footerLogoImg {
+    margin: 0 10px 0 10px;
+    width: 2rem;
+}
+/*-------------------------------------*/

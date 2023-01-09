@@ -1,0 +1,56 @@
+.image {
+    width: 5rem;
+}
+
+figure {
+    align-content: center;
+    text-align: center;
+    width: 7rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.centerDoors {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-width: 1600px;
+    width: 80vw;
+}
+
+.centerBig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+div .centerDoors > a {
+    text-decoration: none;
+}
+
+div .centerDoors > a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+div .centerDoors > a:hover {
+    color: var(--color-accent);
+}
+
+figcaption {
+    font-size: 0.7em;
+    text-align: center;
+}
