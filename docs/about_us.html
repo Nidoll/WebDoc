@@ -11,7 +11,16 @@
 
 <body>
     <header>
-        <a href="index.html" class="marginRightAuto"><img src="images/logo.svg" width="100rem" height="100rem" class="logo" alt="Logo" /></a>
+        <link rel="apple-touch-icon" sizes="180x180" href="./images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon-16x16.png">
+        <link rel="manifest" href="./images/icons/site.webmanifest">
+        <link rel="mask-icon" href="./images/icons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="./images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="./images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <a href="index.html" class="marginRightAuto"><img src="images/logo.svg" width="100" height="100" class="logo" alt="Logo" /></a>
         <nav>
             <div class="navbar">
                 <div class="container nav-container">
@@ -37,6 +46,7 @@
 
     <main>
         <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
             <li>About us</li>
         </ul>
         <div class="rowFlexbox">
@@ -58,8 +68,15 @@
                 </p>
             </div>
             <div class="image">
-                <img src="images/depositphotos_11388954-stock-photo-math-teacher.jpg" width="600rem"
-                    alt="A Math Teacher" />
+                <!--<img srcset="images/depositphotos_11388954-stock-photo-math-teacher-test.jpg 480w, images/depositphotos_11388954-stock-photo-math-teacher.jpg 600"
+                sizes="(max-width: 480px) 480px, 600px"
+                src="images/depositphotos_11388954-stock-photo-math-teacher.jpg"
+                alt="A Math Teacher" />-->
+                <picture>
+                    <source srcset="images/depositphotos_11388954-stock-photo-math-teacher-512.jpg" media="(max-width: 600px)"/>
+                    <img src="images/depositphotos_11388954-stock-photo-math-teacher.jpg" alt="A Math Teacher" />
+                </picture>
+                  
             </div>
         </div>
     </main>
