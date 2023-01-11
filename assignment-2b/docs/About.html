@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Styleshort.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Kanit", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/webdocsimages/mac.jpg");
+  min-height: 100%;
+}
+
+.webdocs-bar .webdocs-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="webdocs-top">
+  <div class="webdocs-bar webdocs-white webdocs-card" id="myNavbar">
+    <a href="Homepage.html"><img src="./Images/LogoForestSweepers.svg" alt="Logo" style="width:60px; height: 60px;"></a>
+    <!-- Right-sided navbar links -->
+    <div class="webdocs-right webdocs-hide-small">
+      <a href="Homepage.html" class="webdocs-bar-item webdocs-button">Home</a>
+      <a href="Current-Projects.html" class="webdocs-bar-item webdocs-button">Projects</a>
+      <a href="About.html" class="webdocs-bar-item webdocs-button">About</a>
+      <a href="Donate.html" class="webdocs-bar-item webdocs-button">Suport Us</a>
+      <a href="Gallery.html" class="webdocs-bar-item webdocs-button">Gallery</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="webdocs-bar-item webdocs-button webdocs-right webdocs-hide-large webdocs-hide-medium" onclick="webdocs_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="webdocs-sidebar webdocs-bar-block webdocs-black webdocs-card webdocs-animate-left webdocs-hide-medium webdocs-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="webdocs_close()" class="webdocs-bar-item webdocs-button webdocs-large webdocs-padding-16">Close ×</a>
+  <a href="Homepage.html" onclick="webdocs_close()" class="webdocs-bar-item webdocs-button">Home</a>
+  <a href="Current-Projects.html" onclick="webdocs_close()" class="webdocs-bar-item webdocs-button">Projects</a>
+  <a href="About.html" onclick="webdocs_close()" class="webdocs-bar-item webdocs-button">About</a>
+  <a href="Donate.html" onclick="webdocs_close()" class="webdocs-bar-item webdocs-button">Suport Us</a>
+  <a href="Gallery.html" onclick="webdocs_close()" class="webdocs-bar-item webdocs-button">Gallery</a>
+</nav>
+
+
+<div class="webdocs-container" style="padding:128px 16px" id="Top">
+  <h2 class="webdocs-center">About Us</h2>
+</div>
+
+
+<div>
+  <ul class="breadcrumb">
+    <a href="Homepage.html">Home</a>
+  
+    <i class="fa fa-chevron-right" aria-hidden="true"></i>About
+  </ul>
+</div>
+
+
+
+<!-- Promo Section - "We know design" -->
+<div class="webdocs-container webdocs-light-grey" style="padding:128px 16px">
+  <div class="webdocs-row-padding">
+    <div class="webdocs-col m6">
+      <h2>About Us</h2>
+      <p>We are The Forest Sweepers, a family-owned business with a simple goal. Making our
+        forests clean again. The truth is, that our green save haven is polluted with all
+        kinds of waste. Apart from the fact that it doesn't look nice, it can also be dangerous.
+        For example, glass in combination with sun rays can potentially lead to a fire destroying
+        everything around. Because healthy forests are necessary to combat climate change, we
+        founded our company. Our network is deeply branched into many locations in Germany. That’s
+        why we can operate many cleaning projects simultaneously. The different offices are managed
+        through our headquarter in Berlin. Our large number of <a>committed team members</a> is ready for
+        all kinds of projects.</p>
+        <p>We also encourage everyone to help us with cleaning and protecting the environment.
+          Please visit the Take Action page to learn more about the various ways to become
+          involved and help make a difference!</p>
+      <p><a href="#work" class="webdocs-button webdocs-black"><i class="fa fa-th"> </i> Check out our team</a></p>
+    </div>
+    <div class="webdocs-col m6">
+      <img class="webdocs-image webdocs-round-large" src="./Images/header-blurred.jpg" alt="About Us" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="webdocs-center webdocs-black webdocs-padding-64">
+  <a href="#Top" class="webdocs-button webdocs-light-grey"><i class="fa fa-arrow-up webdocs-margin-right"></i>To the top</a>
+<div class="webdocs-center webdocs-black webdocs-padding-64">
+  <a href="About.html" class="webdocs-bar-item webdocs-button">Contact Us</a>
+  <a href="Terms-conditions.html" class="webdocs-bar-item webdocs-button">Terms & Conditions</a>
+  <a href="Faqs.html" class="webdocs-bar-item webdocs-button">FAQs</a>
+    </div>
+</footer>
+
+</body>
+</html>
+<script src="script.js" ></script>
