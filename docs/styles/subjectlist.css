@@ -55,3 +55,48 @@ figcaption {
     font-size: 0.7em;
     text-align: center;
 }
+
+.subjectH3 {
+    margin-bottom: 15px;
+}
+
+.subjectTwoColumns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 25px;
+    /*margin-right: 15rem;*/
+}
+
+.subjectTwoColumns.reverse {
+    flex-direction: row-reverse;
+}
+
+.subjectTwoColumns .subjectText {
+    padding-bottom: 0px;
+}
+
+.subjectTwoColumns img {
+    flex-shrink: 1;
+    width: 24rem;
+}
+
+.subjectTwoColumns p {
+    max-width: 23rem;
+}
+
+.mainContentContainer .nextSubLevel {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.marginBottom {
+    margin-bottom: 55px;;
+}
+
+.subjectContainer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50rem;
+}
