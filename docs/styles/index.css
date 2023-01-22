@@ -15,12 +15,31 @@
 
 .paragraph {
     padding: 20px;
-    width: 50rem;
+    max-width: 45%;
 }
 
 .image {
     padding: 20px;
-    max-width: 90%;
+    max-width: 45%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.mainContentContainer.homeContainer {
+    width: 95%;
+    max-width: 95%;
+}
+
+@media screen and (max-width: 980px) {
+    .image {
+        max-width: 80%;
+    }
+
+    .paragraph {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
