@@ -5,22 +5,22 @@
     <title>Pathfinder</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../../../../../styles/style.css" type="text/css" />
-    <script src="../../../../../../scripts/eligibility.js"></script>
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <script src="scripts/eligibility.js"></script>
 </head>
 
 <body>
     <header>
-        <link rel="apple-touch-icon" sizes="180x180" href="../../../../../../images/icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../../../../../../images/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../../../../../../images/icons/favicon-16x16.png">
-        <link rel="manifest" href="../../../../../../images/icons/site.webmanifest">
-        <link rel="mask-icon" href="../../../../../../images/icons/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="../../../../../../images/icons/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+        <link rel="manifest" href="images/icons/site.webmanifest">
+        <link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="images/icons/favicon.ico">
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="../../../../../../images/icons/browserconfig.xml">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <a href="../../../../../../index.html" class="marginRightAuto"><img src="../../../../../../images/logo.svg" width="100" height="100" class="logo" alt="Logo" /></a>
+        <a href="index.html" class="marginRightAuto"><img src="images/logo.svg" width="100" height="100" class="logo" alt="Logo" /></a>
         <nav>
             <div class="navbar">
                 <div class="container nav-container">
@@ -33,9 +33,9 @@
                 
                     <div class="menu-items">
                         <ul class="navbar">
-                            <li><a href="../../../../../../index.html">Home</a></li>
-                            <li><a href="../../../../../../about_us.html">About us</a></li>
-                            <li><a href="../../../../../../contact.html">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about_us.html">About us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -43,20 +43,16 @@
         </nav>
     </header>
     <main>
+        <div class="mainContentContainer">
         <ul class="breadcrumb">
-            <li><a href="../../../../../../index.html">Home</a></li>
-            <li><a href="../../../../../../login.html">Login</a></li>
-            <li><a href="../../../../../continent.html">Europe</a></li>
-            <li><a href="../../../../country.html">Germany</a></li>
-            <li><a href="../../../course.html">Master</a></li>
-            <li><a href="../../field.html">Science</a></li>
-            <li><a href="../subject_list.html">Subjects</a></li>
-            <li><a href="../subject.html">Cyber Security</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./subject_list.html">Explore Subjects</a></li>
+            <li><a href="./subject_computer_science.html">Computer Science</a></li>
             <li>Eligibility</li>
         </ul>
         <h1 class="headlineCenter">Eligibility</h1>
         <p>
-            On this page you can check the whether <i>Cyber Security</i> is the right course for you.
+            On this page you can check the whether <i>Computer Science</i> is the right course for you.
             Just answer the following questions and check the result.
         </p>
         <div id="allQuestionsContainer">
@@ -121,7 +117,7 @@
                 </div>
             </div>
             <div class="questionContainer">
-                <p><b>5:</b> Cryptography is an interesting area of expertise. Scale 1-10</p>
+                <p><b>5:</b> Algorithms are an interesting area of expertise. Scale 1-10</p>
                 <div class="questionRating" data-questionNumber="5">
                     <p class="questionSelected" tabindex="0">1</p>
                     <p class="questionSelected" tabindex="0">2</p>
@@ -136,7 +132,7 @@
                 </div>
             </div>
             <div class="questionContainer">
-                <p><b>6:</b> Pentesting is an interesting area of expertise. Scale 1-10</p>
+                <p><b>6:</b> Programming is an interesting area of expertise. Scale 1-10</p>
                 <div class="questionRating" data-questionNumber="6">
                     <p class="questionSelected" tabindex="0">1</p>
                     <p class="questionSelected" tabindex="0">2</p>
@@ -153,17 +149,18 @@
         </div>
         <button id="submitRatingsButton" class="defaultButton">Calculate</button>
         <p id="resultText" class="boldText"></p>
+        </div>
     </main>
     <footer>
         <ul class="footerLinks">
-            <li><a href="../../../../../../contact.html" tabindex="0">Contact us</a></li>
-            <li><a href="../../../../../../about_us.html" tabindex="0">About us</a></li>
+            <li><a href="contact.html" tabindex="0">Contact us</a></li>
+            <li><a href="about_us.html" tabindex="0">About us</a></li>
         </ul>
         <div class="footerLogos">
-            <a href="" tabindex="0"><img class="footerLogoImg" src="../../../../../../images/facebook-logo.svg" alt="Facebook logo" /></a>
-            <a href="" tabindex="0"><img class="footerLogoImg" src="../../../../../../images/twitter-logo.svg" alt="Twitter logo" /></a>
-            <a href="" tabindex="0"><img class="footerLogoImg" src="../../../../../../images/whatsapp-logo.svg" alt="Whatsapp logo" /></a>
-            <a href="" tabindex="0"><img class="footerLogoImg" src="../../../../../../images/instagram-logo.svg" alt="Instagram logo" /></a>
+            <a href="" tabindex="0"><img class="footerLogoImg" src="images/facebook-logo.svg" alt="Facebook logo" /></a>
+            <a href="" tabindex="0"><img class="footerLogoImg" src="images/twitter-logo.svg" alt="Twitter logo" /></a>
+            <a href="" tabindex="0"><img class="footerLogoImg" src="images/whatsapp-logo.svg" alt="Whatsapp logo" /></a>
+            <a href="" tabindex="0"><img class="footerLogoImg" src="images/instagram-logo.svg" alt="Instagram logo" /></a>
         </div>
     </footer>
 </body>
