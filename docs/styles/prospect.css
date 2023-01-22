@@ -1,6 +1,6 @@
 .rowFlexbox {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row-reverse wrap;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 2%;
@@ -15,12 +15,26 @@
 
 .paragraph {
     padding: 20px;
-    width: 50rem;
+    max-width: 45%;
 }
 
-.image {
+.rowFlexbox img {
     padding: 20px;
-    max-width: 90%;
+    max-width: 100%;
+}
+
+picture {
+    max-width: 48%;
+}
+
+@media screen and (max-width: 980px) {
+    picture {
+        max-width: 80%;
+    }
+
+    .paragraph {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {

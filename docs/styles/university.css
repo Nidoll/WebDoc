@@ -23,8 +23,23 @@
     max-width: 90%;
 }
 
-@media screen and (max-width: 480px) {
-    .image > img {
+.rowFlexbox > .paragraph {
+    max-width: 40%;
+}
+
+.image > img {
+    max-width: 100%;
+}
+
+.image {
+    max-width: 45%;
+}
+
+@media only screen and (max-width: 960px) {
+    .rowFlexbox > .paragraph {
+        max-width: 100%;
+    }
+    .image {
         max-width: 100%;
     }
 }
