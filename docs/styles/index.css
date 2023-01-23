@@ -32,6 +32,11 @@
     max-width: 95%;
 }
 
+.largerButton {
+    padding: 10px;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 980px) {
     .image {
         max-width: 80%;

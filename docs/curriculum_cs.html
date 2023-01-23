@@ -2,24 +2,24 @@
 <html lang="en" xml:lang="en">
 
 <head>
-    <title>Curriculum of Cyber Security</title>
+    <title>Curriculum of Computer Science</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" type="text/css" />
     <link rel="stylesheet" href="styles/curriculumCS.css" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="images/icons/site.webmanifest">
+    <link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <header>
-        <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
-        <link rel="manifest" href="images/icons/site.webmanifest">
-        <link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="images/icons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
         <a href="index.html" class="marginRightAuto"><img src="images/logo.svg" width="100" height="100" class="logo" alt="Logo" /></a>
         <nav>
             <div class="navbar">
@@ -36,6 +36,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about_us.html">About us</a></li>
                             <li><a href="contact.html">Contact</a></li>
+                            <li><a href="subject_list.html">Subjects</a></li>
                         </ul>
                     </div>
                 </div>
@@ -45,14 +46,12 @@
 
     <main>
         <div class="mainContentContainer">
-        <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="subject_list.html">Explore Subjects</a></li>
-            <li><a href="subject_computer_science.html">Computer Science</a></li>
-            <li>Curriculum</li>
-        </ul>
-        <!-- TODO: Breadcrumb navigation is absolutely necessary here-->
-        <div class="currContainer">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subject_list.html">Explore Subjects</a></li>
+                <li><a href="subject_computer_science.html">Computer Science</a></li>
+                <li>Curriculum</li>
+            </ul>
             <h1>Studying Computer Science</h1>
             
             <div class="rowFlexbox">
@@ -88,13 +87,14 @@
                 </div>
             </div>
             
-            <h2>Curiculum</h2>
-            
-            <p>Is the file not displayed correctly? <a href="public/Curr_CS.pdf">Download the curriculum (PDF)</a></p>
-            <object id="curriculumFrame" data="public/Curr_CS.pdf" type="application/pdf">
-                It seems like your browser can't display this PDF file. Please download it using the link above.
-            </object>
-        </div>
+            <div class="h2Below">
+                <h2>Curiculum</h2>
+                <p>Below you can find an example of a curriculum typical for Computer Science. This curriculum is taken from the BTU Cottbus-Senftenberg. Feel free to look up one for the university you plan to study in as it likely differs in the details. However, they're probably similar at their core.</p>
+                <p>Is the file not displayed correctly? <a href="public/Curr_CS.pdf">Download the curriculum (PDF)</a></p>
+                <object id="curriculumFrame" data="public/Curr_CS.pdf" type="application/pdf">
+                    It seems like your browser can't display this PDF file. Please download it using the link above.
+                </object>
+            </div>
         </div>
     </main>
 
