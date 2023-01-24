@@ -4,9 +4,10 @@ header {
     align-items: center;
     margin-bottom: 25px;
     /*background: var(--color-accent-alt);*/
-    background-color: #f6f6f6;
-    -webkit-box-shadow: 0px 12px 14px 5px rgba(0,0,0,0.46); 
-    box-shadow: 0px 12px 14px 5px rgba(0,0,0,0.26);
+    background-color: #e8f2f9;
+    /*background-color: rgb(218 225 235);*/
+    -webkit-box-shadow: 0px 12px 14px 5px rgba(53, 53, 53, 0.26);
+    box-shadow: 0px 12px 14px 5px rgba(53, 53, 53, 0.26);
     /*border-bottom: 2px solid black;*/
 }
 
@@ -197,10 +198,6 @@ header {
         margin-top: 5px;
         width: 60px;
         height: 60px;
-    }
-
-    a.marginRightAuto {
-        /*display: none;*/
     }
 
     nav {

@@ -43,8 +43,8 @@ body {
     font-size: large;
     margin: 0px;
     padding: 0px;
-    background-color: #eeede8;
-    
+    /*background-color: #eeede8;*/
+    background-color: rgb(246, 251, 255);
 }
 
 .headlineCenter {
@@ -103,7 +103,7 @@ a:visited {
 
 .mainContentContainer {
     /*background-color: #e5e5e5;*/
-    background-color: #f6f6f6;
+    background-color: #f8fcff;
     border-radius: 10px;
     padding-top: 10px;
     padding-left: 30px;
@@ -127,9 +127,9 @@ footer {
     flex-direction: column;
     margin-top: 55px;
     width: 100%;
-    background: #f6f6f6;
-    -webkit-box-shadow: 0px -8px 14px 5px rgba(0,0,0,0.46); 
-    box-shadow: 0px -8px 14px 5px rgba(0,0,0,0.26);
+    background: #e8f2f9;
+    -webkit-box-shadow: 0px -8px 14px 5px rgba(53, 53, 53, 0.26);
+    box-shadow: 0px -8px 14px 5px rgba(53, 53, 53, 0.26);
 }
 
 .footerLinks {
