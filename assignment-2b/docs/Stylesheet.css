@@ -298,5 +298,218 @@ nav ul li ul.dropdown-menu {
   margin: 0px 120px;
   background-color: #f1f1f1;
 }
+.divDonation button{
+  width: 350px;
+  color: #fff;
+  background-color: #295135;
+   border: none; 
+  margin: 20px 30px;
+  height: 50px;
+ 
+  cursor: pointer;
 
+}
+
+.DonationTop{
+  background-color: red;
+  height: 140px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff ;
+    font-weight: bold;
+}
+.divButtom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.divCustom
+{
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.divAmount input{
+    padding: 8px;
+   
+    border: 1px solid #ccc;
+    margin: 0px 25px 25px 25px;
+    width: 90%;
+    height: 25px;
+
+}
+.divPayment{
+    display: flex;
+    justify-content: space-around;
+}
+.divPayment select{
+  width: 250px;
+}
+.buttonPayment{
+  display: flex;
+    justify-content: center;
+}
+.buttonPayment button{
+width: 90%;
+margin: 120px 50px;
+
+}
+
+.divGalleryTop{
+  display: flex;
+    justify-content: space-around;
+}
+.LeftGalleryTop{
+  width: 50%;
+
+}
+.RightGalleryTop
+{
+  width: 50%;
+  
+}
+.RightGalleryTop>div{
+  margin-bottom: 25px;
+  margin-top: 2.5%;
+}
+
+.divVideo{
+  margin: 2% 5%;
+}
+.divRightGalleryTopItem{
+  display: flex;
+    justify-content: start;
+    height: 40%;
+}
+.divRightGalleryTopItem>div{
+ margin-right:  10px;
+}
+.divRightGalleryTopItem img{
+  width:85%;
+  height: 100%;
+}
+.divBottomImg img{
+  width:40%;
+  height: 100%;
+}
+.divGalleryBottom{
+  display: flex;
+    justify-content: start;
+}
+
+.divLefttGalleryBottom
+{
+  width: 50%;
+}
+
+.divRightGalleryBottom
+{
+  width: 50%;
+
+}
+.divLefttGalleryBottom h3{
+  margin: 5px 25px;;
+}
+.divPBottom{
+  margin: 5px 25px;;
+}
+    
+
+
+.divContact {
+  margin-top: 20px;
+  border: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+    
+    @media only screen and (max-width: 600px) {
+      .left-column, .right-column, .two-column-layout {
+        flex: 1;
+        max-width: 100%;
+        flex-wrap: wrap;
+        text-align: justify;
+      }
+    }
+
+    @media screen and (max-width:768px) {
+
+      header .container {
+        display: flex;
+        flex-wrap: wrap;
+       
+        }
+        .divMenu{
+          margin-top: 50px;
+        }
+        .divLeft{
+          margin: auto;
+        }
+        .divDonation {
+          margin: 0px 50px;
+        }
+        .divGalleryTop {
+         
+          flex-wrap: wrap;
+      }
+      .LeftGalleryTop {
+        width: unset;
+        text-align: center;
+       }
+
+       .RightGalleryTop {
+        width: unset;
+        text-align: center;
+       }
+
+       .divGalleryBottom{
+        flex-wrap: wrap;
+       }
+       .divLefttGalleryBottom {
+        width: unset;
+        text-align: center;
+        padding-top: 25px;
+       }
+       .divRightGalleryBottom{
+        width: unset;
+        text-align: center;
+       }
+
+    }
+    @media screen and (max-width:576px) {
+      header nav ul li {
+        margin: -3px;
+    }
+    .divAmount input {
+      width: 80%;
+    }
+    .divPayment select {
+      width: 185px;
+     }
+    }
+
+    @media screen and (max-width:425px) {
+      .divMenu{
+        font-size: 14px;
+      }
+      .footer-button {
+        padding: 15px;
+      }
+      .divPayment select {
+        width: 145px;
+    }
+
+    }
+
+    @media screen and (max-width:375px) {
+      .divMenu{
+        font-size: 11px;
+      }
+      .footer-button {
+        padding: 5px;
+      }
+    }
     
