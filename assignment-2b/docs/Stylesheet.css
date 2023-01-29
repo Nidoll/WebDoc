@@ -1,0 +1,302 @@
+
+
+/* Add this to your styles.css file */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+    header {
+    background-color: #fff;
+    color: #295135;
+    padding: 30px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  }
+
+.h2heading {
+    text-align: center;
+    color: #295135;
+  }
+  .h2heading-left {
+    text-align: left;
+    color: #295135;
+  }
+.text-center {
+    text-align: center;
+    line-height: normal;
+    font-size: 16px;
+}
+.text-left {
+  text-align: left;
+  line-height: normal;
+  font-size: 16px;
+}
+.footer-button {
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #295135;
+    text-decoration: none;
+}
+.footer-button:hover {
+    padding: 15px;
+    color: #295135;
+    border-radius: 5px;
+    background-color: #d7d4d4;
+    text-decoration: none;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+}
+header .divRight{
+  display: flex;
+    align-items: center;
+}
+header  img {
+    margin: 0;
+    width: 250px;
+    height: 100px;
+  }
+  
+  header nav ul {
+    float: right;
+    list-style: none;
+    margin: -20px;
+    padding: 0;
+    display: flex;
+    font-weight: bold;
+  }
+  
+  header nav ul li {
+    margin: 10px;
+  }
+  
+  header nav ul li a {
+    color: #295135;
+    text-decoration: none;
+    padding: 10px;
+  }
+  header nav ul li a:hover {
+    color: #295135;
+    text-decoration: none;
+    background-color: #d7d4d4;
+    padding: 20px;
+    margin:10px ;
+  }
+  /* Dropdown Menu Styles */
+nav ul li ul.dropdown-menu {
+    display: none; /* hide the dropdown menu by default */
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
+  }
+  
+  nav ul li:hover ul.dropdown-menu {
+    display: block; /* show the dropdown menu on hover */
+  }
+  
+  nav ul li ul.dropdown-menu li {
+    clear: both;
+    width: 100%;
+  }  
+  
+  /* Breadcrumb Styles */
+  .breadcrumbs {
+    font-size: smaller;
+    color: #fff;
+    padding: 10px;
+    background-color: #295135;
+  }
+  
+  .breadcrumbs a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Styles */
+  .Page-Title {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Page-Title-h1 {
+    color: #295135;
+    text-align: center;
+    font-size: 26px;
+    font-weight:500;
+  }
+  .hero {
+    background-image: url('Images/header.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .hero-buttons {
+    text-align: center;
+  }
+  
+  .hero-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    margin-top: 50px;
+  }
+  
+  /* Contact Form Styles */
+  form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #295135;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  .grey-background {
+    background-color: #d7d4d4;
+  }
+
+    .two-column-layout {
+      display: flex;
+    }
+    
+    .left-column {
+      flex: 1; /* Width of left column is 1/2 of the parent container */
+      max-width: 50%; /* Set a maximum width for the left column */
+      font-size: 18px;
+      color: #295135;
+      text-align: justify;
+    }
+    .normal-button{
+      background-color: #295135;
+      padding: 15px;
+      margin: 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    
+    .right-column {
+      flex: 1; /* Width of right column is 1/2 of the parent container */
+      max-width: 50%; /* Set a maximum width for the right column */
+      margin-top: 50px;
+    }
+    .right-column img {
+      border-radius: 10px;
+      width: 300px;
+      height: 300px;
+      align-self: center;
+    }
+
+
+/*  Team */
+
+.contentRow{
+  display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap
+    
+}
+
+.columnItem{
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  margin-bottom: 25px;
+}
+.columnItem .divFounder{
+  opacity: .6;
+}
+
+.columnItem .divImg img{
+  width: 100%;
+  border-radius: 25px;
+}
+.divBottom{
+  text-align: center;
+}
+
+.columnItem p,h3,h4{
+  padding:0px 15px;
+}
+
+.Merchandise{
+  width: 325px;
+}
+.divPrice button{
+  border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+  color: #295135 ;
+    background-color: #ccc ;
+    display: block;
+    width: 100%;
+    
+}
+
+.divMerchandise,.divContactUs{
+  background-color: #f1f1f1;
+  padding:5px 15px;
+
+}
+
+
+.divDonation{
+  margin: 0px 120px;
+  background-color: #f1f1f1;
+}
+
+    
