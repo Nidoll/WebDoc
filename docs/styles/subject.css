@@ -71,7 +71,7 @@
     max-width: 50%;
 }
 
-.subjectContainerRightColumn > img {
+.subjectContainerRightColumn img {
     height: 10rem;
     width: 100%;
     border-radius: 10px;

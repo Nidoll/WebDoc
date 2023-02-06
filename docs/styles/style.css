@@ -15,6 +15,7 @@
     --color-accent-alt: #30cbe8;
     --color-text: #000000;
     --color-subject-textPanelBG: #ededed;
+    --color-figcaption: #333333;
 }
 
 * {
@@ -115,6 +116,19 @@ a:visited {
     margin-left: auto;
     -webkit-box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.12); 
     box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.12);
+}
+
+figcaption {
+    color: var(--color-figcaption);
+    font-size: small;
+}
+
+figcaption a {
+    color: var(--color-figcaption) !important;
+}
+
+figure {
+    margin: 0;
 }
 
 /*-------------------------------------*/

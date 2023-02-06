@@ -23,12 +23,13 @@
     max-width: 100%;
 }
 
-picture {
+figure {
     max-width: 48%;
+    margin: 0 30px 0 0;
 }
 
 @media screen and (max-width: 980px) {
-    picture {
+    figure {
         max-width: 80%;
     }
 
