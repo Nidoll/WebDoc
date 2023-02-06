@@ -7,7 +7,7 @@ header {
     background-color: #e8f2f9;
     /*background-color: rgb(218 225 235);*/
     -webkit-box-shadow: 0px 12px 14px 5px rgba(53, 53, 53, 0.26);
-    box-shadow: 0px 12px 14px 5px rgba(53, 53, 53, 0.26);
+    box-shadow: 0 12px 14px 5px rgba(53, 53, 53, 0.26);
     /*border-bottom: 2px solid black;*/
 }
 
@@ -152,7 +152,7 @@ header {
     }
 
     .nav-container .hamburger-lines .line1 {
-        transform-origin: 0% 0%;
+        transform-origin: 0 0;
         transition: transform 0.4s ease-in-out;
         transition: background 0.4s ease-in-out;
     }
@@ -163,7 +163,7 @@ header {
     }
 
     .nav-container .hamburger-lines .line3 {
-        transform-origin: 0% 100%;
+        transform-origin: 0 100%;
         transition: transform 0.4s ease-in-out;
         transition: background 0.4s ease-in-out;
     }

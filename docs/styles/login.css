@@ -69,7 +69,7 @@ body > footer {
         max-width: 65%;
     }
     .backgroundBox > div.inputRow {
-        margin-right: 0px;
+        margin-right: 0;
     }
     .backgroundBox input[type=text],
     .backgroundBox input[type=password] {
@@ -77,6 +77,6 @@ body > footer {
     }
     .backgroundBox > div.checkBoxInputRow,
     .backgroundBox > div.fileInputRow {
-        margin-left: 0%;
+        margin-left: 0;
     }
 }
