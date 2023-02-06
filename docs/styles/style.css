@@ -18,6 +18,10 @@
     --color-figcaption: #333333;
 }
 
+.noDisplay {
+    display: none;
+}
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
